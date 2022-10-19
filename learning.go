@@ -31,3 +31,20 @@ func main() {
      
 
 }
+
+package main
+import "fmt"
+func main(){
+
+  var a int
+  var b int
+  var a_1 int
+  var b_1 int
+  var c int
+  fmt.Scan(&a) // считаем переменную 'a' с консоли
+  fmt.Scan(&b) // считаем переменную 'b' с консоли
+  a_1 = a * a
+  b_1 = b * b
+  c = a_1 + b_1
+  fmt.Println(c)
+}
